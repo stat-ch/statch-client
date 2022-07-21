@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import AuctionPlace from "../pages/nft/auctionPlace";
-import NFTDetail from "../pages/nft/nftDetail";
+import AuctionPlace from "../src/pages/nft/auctionPlace";
+import NFTDetail from "../src/pages/nft/nftDetail";
 
 // auction place
 

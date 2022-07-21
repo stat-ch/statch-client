@@ -1,8 +1,13 @@
-import { findByRole, render, screen } from "@testing-library/react";
+
+import {
+  findByRole,
+  render,
+  screen,
+} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import ChatRoomList from "../pages/game/chatRoomList";
-import ChatRoom from "../pages/game/[chatRoom]";
-import Transaction from "../pages/transaction";
+import ChatRoom from "../src/pages/game/[chatRoom]";
+import ChatRoomList from "../src/pages/game/chatRoomList";
+import Transaction from "../src/pages/transaction";
 
 // 채팅 관련 테스트
 describe("채팅 방 관련 테스트", () => {

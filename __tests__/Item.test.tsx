@@ -1,9 +1,9 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Inventory from "../pages/inventory";
-import Mint from "../pages/mint";
-import RandomBox from "../pages/randombox/buyRandombox";
-import RandomBoxResult from "../pages/randombox/randomboxResult";
+import Inventory from "../src/pages/inventory";
+import Mint from "../src/pages/mint";
+import RandomBox from "../src/pages/randombox/buyRandombox";
+import RandomBoxResult from "../src/pages/randombox/randomboxResult";
 
 // 랜덤박스 관련
 describe("랜덤박스 관련 테스트", () => {

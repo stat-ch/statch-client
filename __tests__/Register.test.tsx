@@ -1,9 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import RegisterForm from "../pages/register/registerForm";
-import React from "react";
-import RegisterSetting from "../pages/register/registerSetting";
-import Login from "../pages/login";
+import Login from "../src/pages/login";
+import RegisterForm from "../src/pages/register/registerForm";
+import RegisterSetting from "../src/pages/register/registerSetting";
 
 // 회원가입 관련 test code
 
