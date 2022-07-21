@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Login from "../pages/login";
+import Login from "../src/pages/login";
 
 // 로그인 관련 테스트
 

@@ -1,9 +1,36 @@
+// {
+//   "plugins": ["testing-library", "jest-dom"],
+//   "extends": [
+//     "react-app",
+//     "react-app/jest",
+//     "plugin:testing-library/react",
+//     "plugin:jest-dom/recommended"
+//   ]
+// }
+
 {
   "plugins": ["testing-library", "jest-dom"],
   "extends": [
+    "next",
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:storybook/recommended",
+    "plugin:tailwindcss/recommended",
     "react-app",
     "react-app/jest",
     "plugin:testing-library/react",
     "plugin:jest-dom/recommended"
-  ]
+  ],
+  "ignorePatterns": ["*.config.js"],
+  "rules": {
+    "tailwindcss/classnames-order": "off",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ]
+  }
 }

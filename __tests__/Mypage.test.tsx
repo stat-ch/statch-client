@@ -1,11 +1,11 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import FriendList from "../pages/friends/friendList";
-import FriendRequestList from "../pages/friends/friendReqeustList";
-import ChatRoom from "../pages/game/[chatRoom]";
-import Created from "../pages/mypage/created";
-import MyPage from "../pages/mypage/mypage";
-import Profile from "../pages/mypage/profile";
+import FriendList from "../src/pages/friends/friendList";
+import FriendRequestList from "../src/pages/friends/friendReqeustList";
+import ChatRoom from "../src/pages/game/[chatRoom]";
+import Created from "../src/pages/mypage/created";
+import MyPage from "../src/pages/mypage/mypage";
+import Profile from "../src/pages/mypage/profile";
 
 describe("MyPage 관련 테스트", () => {
   render(<MyPage />);

@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Home from "../pages/index";
+import Home from "../src/pages/index";
 
 describe("example: test of index.tsx", () => {
   test("renders a heading", () => {
